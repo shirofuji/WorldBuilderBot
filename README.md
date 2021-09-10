@@ -16,13 +16,15 @@ Python libraries required:
 - random
 - d20
 
-You can install the libraries by using `pip`
+You can install the libraries by using `pip`.
 
 `pip install [library]`
 
 Example:
 
 `pip install discord`
+
+Update token variable in `worldbuilderbot.py` set it to your token from discord developer portal.
 
 Once everything is installed, run the bot on a command-line / terminal by using command:
 
