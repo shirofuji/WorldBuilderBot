@@ -8,6 +8,7 @@ import d20
 from lib import db_func
 
 default_prefixes = '$'
+token = ''
 
 intents = discord.Intents.default()
 intents.members = True
@@ -542,4 +543,4 @@ bot.add_cog(Realms(bot))
 bot.add_cog(Armies(bot))
 bot.add_cog(Units(bot))
 bot.add_cog(Combat(bot))
-bot.run('ODg1MDU1NTUyMTM5NDQ4MzMy.YTheNw.T5seW9S5qX2W85l1-_AZQyVp9CE')
+bot.run(token)
